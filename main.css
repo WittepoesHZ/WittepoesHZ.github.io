@@ -5,13 +5,22 @@ body {
 }
 
 a {
-    color: whitesmoke;
     padding-left: auto;    
 }
 
 .header{
     font-size: 20px;
 }
+
+h1{
+    font-size: 30px;
+    padding-top: 50px;
+    text-align: center;
+}
+h1, h2, p, a{
+    color:whitesmoke
+}
+
 
 /*rainbow text for title*/
 
@@ -45,17 +54,8 @@ a {
     }
   }
 
-h1{
-    color: whitesmoke;
-    font-size: 30px;
-    padding-top: 50px;
-    text-align: center;
-}
-h2{
-    color:whitesmoke
-}
-
 /* Header */
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -89,4 +89,27 @@ ul {
  
 li {
     border-right: 1px solid #bbb;
+  }
+
+  /* Colums */
+
+  /* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 30%;
+    padding: 15px;
+  }
+  
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
   }
