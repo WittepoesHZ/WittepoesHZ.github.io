@@ -6,15 +6,53 @@ body {
 
 a {
     color: whitesmoke;
-    padding-left: auto;
+    padding-left: auto;    
 }
+
+.header{
+    font-size: 20px;
+}
+
+/*rainbow text for title*/
+
+#shadowBox {
+    background-color: rgb(255, 255, 255);
+    /* Fallback color */
+    border: 3px solid;
+  }
+  
+  .toptext {
+    text-align: center;
+    font-size: 32px;
+    animation: colorRotate 6s linear 0s infinite;
+  }
+  
+  @keyframes colorRotate {
+    from {
+      color: #6666ff;
+    }
+    10% {
+      color: #0099ff;
+    }
+    50% {
+      color: #00ff00;
+    }
+    75% {
+      color: #ff3399;
+    }
+    100% {
+      color: #6666ff;
+    }
+  }
 
 h1{
     color: whitesmoke;
     font-size: 30px;
     padding-top: 50px;
     text-align: center;
-
+}
+h2{
+    color:whitesmoke
 }
 
 /* Header */
@@ -34,7 +72,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 20px;
     text-decoration: none;
 }
 
@@ -45,6 +83,7 @@ li a:hover {
 ul {
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
   }
  
