@@ -39,17 +39,11 @@ h1, h2, p, a, li, table{
     color:whitesmoke
 }
 
-
 /*rainbow text for title*/
-
-#shadowBox {
-    background-color: rgb(255, 255, 255);
-    border: 3px solid;
-  }
   
   .toptext {
     text-align: center;
-    font-size: 32px;
+    font-size: 50px;
     animation: colorRotate 6s linear 0s infinite;
   }
   
@@ -122,8 +116,8 @@ h1, h2, p, a, li, table{
     }
   }
 
-  /* making the table work */
+  /* Padding for making the text not go under the header */
 
   .cijferlijst{
-    padding-top: px;
+    padding-top: 80px;
   }
