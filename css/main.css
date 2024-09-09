@@ -35,7 +35,7 @@ h1{
   border-right: 0px solid #bbb;
 }
 
-h1, h2, p, a, li{
+h1, h2, p, a, li, table{
     color:whitesmoke
 }
 
@@ -73,19 +73,24 @@ h1, h2, p, a, li{
 
 /* Header */
 
-ul {
+.mainheader {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
-li {
+.mainheadertext {
     float: left;
+    border-right: 1px solid #bbb;
 }
 
-li a {
+.mainheadertext a {
     display: block;
     color: white;
     text-align: center;
@@ -93,21 +98,10 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+.mainheadertext a:hover {
     background-color: #111;
 }
-
-ul {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-  }
  
-li {
-    border-right: 1px solid #bbb;
-  }
-
   /* Colums */
 
 .column {
@@ -126,4 +120,10 @@ li {
     .column {
       width: 100%;
     }
+  }
+
+  /* making the table work */
+
+  .cijferlijst{
+    padding-top: px;
   }
