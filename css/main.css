@@ -1,11 +1,14 @@
 body {
   background-color: #250200;
   font-family: sans-serif;
-
-}
+  min-height: 400px;
+  margin-bottom: 100px;
+  clear: both;
+ }
 
 a {
   padding-left: auto;
+  color:#e7e518;
 }
 
 .header {
@@ -41,11 +44,9 @@ i,
 .ps {
   color:#878787
 }
-
 h1,
 h2,
 p,
-a,
 li,
 table,
 summary {
@@ -125,12 +126,13 @@ summary {
 
 .columnimage {
   float: left;
-  width: 15%;
+  width: 17%;
   padding: 15px;
   background-color: #333;
   text-align: center;
   padding-top: 25px;
   padding-bottom: 25px;
+  margin-bottom: 70px;
 }
 
 .column {
@@ -185,4 +187,38 @@ th, td {
   font-size: 50px;
   animation: colorRotate 6s linear 0s infinite;
   margin-bottom: -50px;
+}
+
+.faq{
+  background-color: #250200;
+  border: 3px solid #1681c3;
+  text-align: center;
+  margin: auto;
+  width: 40%;
+  margin-bottom: 20px;
+}
+
+/* summaries */
+
+.summarytop{
+  font-size:30px;
+}
+
+.summarycontent{
+  font-size: 20px;
+  text-align: left;
+}
+
+summary {
+  cursor: pointer;
+}
+
+/* footer */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333333;
+  text-align: center;
 }
