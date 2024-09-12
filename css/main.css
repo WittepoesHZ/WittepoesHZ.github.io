@@ -37,12 +37,18 @@ h1 {
   border-right: 0px solid #bbb;
 }
 
+i,
+.ps {
+  color:#878787
+}
+
 h1,
 h2,
 p,
 a,
 li,
-table {
+table,
+summary {
   color: whitesmoke
 }
 
@@ -117,10 +123,27 @@ table {
 
 /* Colums */
 
+.columnimage {
+  float: left;
+  width: 15%;
+  padding: 15px;
+  background-color: #333;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
 .column {
   float: left;
   width: 30%;
   padding: 15px;
+}
+
+.column1 {
+float: left;
+width: 60%;
+padding: 15px;
+text-align: center;
 }
 
 .row::after {
@@ -138,11 +161,19 @@ table {
 /* Padding for making the text not go under the header */
 
 .cijferlijst {
-  padding-top: 80px;
+  margin-top: 100px;
+  width: 100%;
+  border-collapse: collapse ;
 }
 
-/* thing */
+/* making the socials not underlined */
 
 .socials {
   text-decoration: none;
 }
+
+/* Tables */
+
+th, td {
+  border: 3px solid #d4af37
+} 
