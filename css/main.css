@@ -177,7 +177,7 @@ text-align: center;
 /* Tables */
 
 th, td {
-  border: 1px solid #1681c3;
+  border: 1px solid #e7e518;
   padding: 5px;
   
 }
@@ -191,7 +191,7 @@ th, td {
 
 .faq{
   background-color: #250200;
-  border: 3px solid #1681c3;
+  border: 3px solid #e7e518;
   text-align: center;
   margin: auto;
   width: 40%;
