@@ -28,13 +28,13 @@ h1 {
   text-align: center;
 }
 
-.sterk {
+.sterkePunten {
   color: #44a244;
   padding-bottom: 10px;
   border-right: 0px;
 }
 
-.zwak {
+.zwakkePunten {
   color: #a24444;
   padding-bottom: 10px;
   border-right: 0px solid #bbb;
